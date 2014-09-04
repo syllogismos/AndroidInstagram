@@ -1,0 +1,10 @@
+package anil.instagram.util;
+
+/**
+ * Created by Anil on 9/4/2014.
+ */
+public class Keys {
+    public static final String CLIENT_ID = "your client key";
+    public static final String CLIENT_SECRET = "your client secret";
+    public static final String REDIRECT = "your redirect uri";
+}

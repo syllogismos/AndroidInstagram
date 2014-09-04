@@ -11,6 +11,7 @@ import android.widget.Toast;
 import anil.instagram.instagram.Instagram;
 import anil.instagram.instagram.InstagramSession;
 import anil.instagram.instagram.InstagramUser;
+import anil.instagram.util.Keys;
 
 
 public class MyActivity extends Activity {
@@ -18,9 +19,9 @@ public class MyActivity extends Activity {
     private InstagramSession instagramSession;
     private Instagram instagram;
 
-    private static final String CLIENT_ID = "f96e2c9c0a294943a87faccf6086b330";
-    private static final String CLIENT_SECRET = "ec1434ab6e9a46649064cd4ddf610496";
-    private static final String REDIRECT = "http://syllogismos.github.io";
+    private static final String CLIENT_ID = Keys.CLIENT_ID;
+    private static final String CLIENT_SECRET = Keys.CLIENT_SECRET;
+    private static final String REDIRECT = Keys.REDIRECT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
