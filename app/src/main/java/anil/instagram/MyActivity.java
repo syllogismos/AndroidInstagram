@@ -11,7 +11,7 @@ import android.widget.Toast;
 import anil.instagram.instagram.Instagram;
 import anil.instagram.instagram.InstagramSession;
 import anil.instagram.instagram.InstagramUser;
-import anil.instagram.util.Keys;
+// import anil.instagram.util.Keys;
 
 
 public class MyActivity extends Activity {
