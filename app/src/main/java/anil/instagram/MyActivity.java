@@ -19,9 +19,9 @@ public class MyActivity extends Activity {
     private InstagramSession instagramSession;
     private Instagram instagram;
 
-    private static final String CLIENT_ID = Keys.CLIENT_ID;
-    private static final String CLIENT_SECRET = Keys.CLIENT_SECRET;
-    private static final String REDIRECT = Keys.REDIRECT;
+    private static final String CLIENT_ID = "Keys.CLIENT_ID";         // remove double quotes here
+    private static final String CLIENT_SECRET = "Keys.CLIENT_SECRET";
+    private static final String REDIRECT = "Keys.REDIRECT";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
