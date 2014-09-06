@@ -2,3 +2,6 @@ language: android
 
 before_install:
   - chmod +x gradlew
+
+ licenses:
+    - android-sdk-license-5be876d5
