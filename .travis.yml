@@ -1,3 +1,4 @@
-language: android
+language: java
 
-script: ./gradlew build assembleDebug
+before_install:
+  - chmod +x gradlew
